@@ -9,7 +9,7 @@ import Footer from "./Footer";
 
 function Home() {
   return (
-    <div className="min-h-screen w-full  relative">
+    <div className="min-h-screen w-full p-2 relative">
       {/* Teal Glow Background */}
       {/* <div
         className="absolute inset-0 z-0"

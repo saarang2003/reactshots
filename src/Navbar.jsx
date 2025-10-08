@@ -3,7 +3,7 @@ import React from "react";
 function Navbar(){
 
     return(
-        <div className="relative flex justify-between gap-4 max-w-[786px] mt-2 mx-auto rounded-xl shadow-lg border border-white/20 bg-gradient-to-r from-[#484985]/80 via-[#6366f1]/70 to-[#5417D7]/80 backdrop-blur-md">
+        <div className="relative flex justify-between gap-4 max-w-[786px] mx-auto rounded-xl shadow-2xl shadow-white/10 border border-white/5 bg-gradient-to-r from-[#484985]/40  to-[#5417D7]/20 backdrop-blur-2xl">
         <div className="flex items-center gap-2 p-4">
           <img src="./public/logo.png" alt="logo" className="w-6 h-6" />
           <span className="font-bold text-white text-2xl">ReactShots</span>

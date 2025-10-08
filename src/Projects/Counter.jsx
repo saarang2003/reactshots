@@ -73,15 +73,41 @@ export default function Counter() {
   return (
     <div>
        <div
-    className="absolute inset-0 z-0"
+    className="fixed inset-0 z-0"
     style={{
       background: "radial-gradient(125% 125% at 50% 10%, #000 40%, #6366f1 100%)",
+      minHeight: "100vh",
     }}
   />
+    <div className='relative z-10 py-2'>
       <Navbar />
+    </div>
+
+      <div className="relative z-10 max-w-[1280px] h-fit mx-auto px-4 md:px-6 lg:px-14 pb-12 mt-8 ">
+
+        <h1 className="text-4xl text-[#d9e0ff] font-bold mb-3 "> 
+           Counter App</h1>
+
+           <h4 className="  selection:bg-purple-300 selection:text-black text-[#4a4e5e] font-semibold text-2xl mb-1 leading-[1.5]">
+            📝 Project Overview
+           </h4>
+        <p className="text-[#4a4e5e] max-w-[60%]">
+          In this project, we developed a Counter application using React that allows users to increment and decrement a count value. The app demonstrates dynamic state updates and responsive UI interactions.
+        </p>
+        <h4 className="  selection:bg-purple-300 selection:text-black text-[#4a4e5e] font-semibold text-xl mb-1 leading-[1.5] mt-4">
+           🎯 What You Will Learn
+            </h4>
+            <ul className="text-[#4a4e5e] list-disc list-inside max-w-[60%]">
+              <li>Using useState for state management</li>
+              <li>Handling button click events</li>
+              <li>Updating UI based on state changes</li>
+              <li>Creating simple, reusable React components</li>
+            </ul>
+      </div>
+
       <section className='max-w-[1280px] mx-auto px-4 md:px-6 lg:px-8 pb-12'>
-        <div className='rounded-xl border border-gray-200 bg-white p-6 shadow-sm'>
-          <p className='mb-4 text-sm font-semibold text-[#334155]'>Full Project - Sandpack Editor</p>
+        <div className='rounded-xl border border-gray-200  bg-white p-6 shadow-sm'>
+          <p className='mb-4 relative z-10 text-2xl font-semibold text-[#e3ecf9]'>Code</p>
           <Sandpack
             template="react"
             options={{
@@ -102,6 +128,7 @@ export default function Counter() {
       }}
           />
         </div>
+      
       </section>
       <div className=" relative z-10" >
       <Footer/>
