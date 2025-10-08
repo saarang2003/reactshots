@@ -134,9 +134,11 @@ function Home() {
       </div>
           
         <div className="flex relative z-10  justify-center  mt-6 mb-4">
+          <Link to="/projects">
           <Button className="bg-[#5417D7] hover:bg-[#3e0fb5] cursor-pointer  text-white px-12 py-6 text-xl font-semibold rounded-lg shadow-2xl  transition duration-300">View All Projects
       <ArrowRight className="w-18 h-18"/>
           </Button>
+          </Link>
         </div>
         <div className=" relative z-10 w-full" >
         <Footer/>
