@@ -1,5 +1,5 @@
 import React from 'react'
-import { Github, Coffee } from 'lucide-react';
+import { Github, Coffee, ArrowRight } from 'lucide-react';
 
 function Footer(){
     return (
@@ -9,20 +9,18 @@ function Footer(){
                 <div className="grid gap-10 md:grid-cols-3 lg:grid-cols-4">
                     {/* Brand and description */}
                     <div className="md:col-span-2">
-                        <div className="flex items-baseline gap-2">
-                            <span className="inline-flex items-center rounded bg-yellow-400 px-2 py-0.5 text-sm font-bold text-gray-900">JS</span>
-                            <span className="text-2xl font-extrabold text-white">100</span>
-                            <span className="text-2xl font-extrabold text-white">Projects</span>
-                            <span className="text-lg font-semibold text-gray-400">.com</span>
-                        </div>
+                        <div className="flex items-center gap-2 p-4">
+          <img src="./public/logo.png" alt="logo" className="w-6 h-6" />
+          <span className="font-bold text-white text-2xl">ReactShots</span>
+        </div>
                         <p className="mt-4 max-w-2xl text-sm leading-6 text-gray-400">
-                            Elevate your web development skills with our comprehensive collection of 100+ interactive JavaScript projects. From beginner-friendly tutorials to advanced challenges.
+                          Master React Interviews with Real-World Projects Sharpen your skills with a curated collection of React challenges inspired by real interview questions.
                         </p>
 
                         {/* Stats */}
                         <div className="mt-6 grid grid-cols-3 gap-4 sm:max-w-md">
                             <div className="rounded-lg border border-gray-800 bg-gray-800/30 p-4 text-center">
-                                <div className="text-xl font-bold text-white">100+</div>
+                                <div className="text-xl font-bold text-white">30+</div>
                                 <div className="text-xs text-gray-400">Projects</div>
                             </div>
                             <div className="rounded-lg border border-gray-800 bg-gray-800/30 p-4 text-center">
@@ -59,9 +57,9 @@ function Footer(){
                                     className="flex items-center gap-3 rounded-lg border border-gray-800 bg-gray-800/40 px-4 py-3 transition-colors hover:bg-gray-700 hover:text-white shadow-sm"
                                 >
                                     <Github className="h-5 w-5 text-green-400 group-hover:text-green-300" />
-                                    <div className="flex flex-col">
-                                        <span className="font-semibold">GitHub</span>
-                                        <span className="text-xs text-gray-400 group-hover:text-gray-300">View source code</span>
+                                    <div className="flex justify-between w-full items-center">
+                                        <div className="font-semibold">GitHub</div>
+                                        <div className="text-lg text-gray-400 group-hover:text-gray-300"><ArrowRight/></div>
                                     </div>
                                 </a>
                             </li>
@@ -73,9 +71,9 @@ function Footer(){
                                     className="flex items-center gap-3 rounded-lg border border-gray-800 bg-gray-800/40 px-4 py-3 transition-colors hover:bg-gray-700 hover:text-white shadow-sm"
                                 >
                                     <Coffee className="h-5 w-5 text-amber-400 group-hover:text-amber-300" />
-                                    <div className="flex flex-col">
+                                    <div className="flex justify-between w-full items-center">
                                         <span className="font-semibold">Buy me a coffee</span>
-                                        <span className="text-xs text-gray-400 group-hover:text-gray-300">Support the project</span>
+                                        <span className="text-xs text-gray-400 group-hover:text-gray-300"><ArrowRight/></span>
                                     </div>
                                 </a>
                             </li>
@@ -87,7 +85,7 @@ function Footer(){
                 <div className="mt-12 border-t border-gray-800 pt-6">
                     <div className="flex flex-col items-start justify-between gap-4 md:flex-row md:items-center">
                         <p className="text-xs text-gray-400">
-                            © 2025 100 JS Projects. Crafted with ❤️ for developers worldwide.
+                            © 2025 ReactShots. Crafted with ❤️ for developers worldwide.
                         </p>
                         <nav className="flex flex-wrap items-center gap-x-6 gap-y-2 text-xs text-gray-400">
                             <a href="#" className="hover:text-white">Privacy</a>

@@ -9,7 +9,7 @@ import Footer from "./Footer";
 
 function Home() {
   return (
-    <div className="min-h-screen w-full p-2 relative">
+    <div className="min-h-screen w-full relative">
       {/* Teal Glow Background */}
       {/* <div
         className="absolute inset-0 z-0"
@@ -28,7 +28,9 @@ function Home() {
     }}
   />
 
+      <div className="relative z-10 py-2">
         <Navbar/>
+      </div>
 
       {/* CTA */}
       <div className="relative z-10 max-w-[586px] h-fit-content mx-auto mt-24 text-center px-2 ">
@@ -121,10 +123,6 @@ function Home() {
               </div>
           </Card>
 
-
-          <Card className="mt-6 max-w-[300px] h-fit-content bg-red-200 border-2 border-red-300">
-            ONE
-          </Card>
         </div>
           
 
