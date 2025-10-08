@@ -70,6 +70,7 @@ function Home() {
 
         {/* Projects */}
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 mt-2">
+
           <Card className="mt-6 w-[350px] h-fit-content bg-red-200 shadow-2xl">
             <CardTitle className="text-center font-bold text-2xl">Counter App</CardTitle>
             <div className="w-[80%] mx-auto h-48 bg-gray-300 rounded-lg flex items-center justify-center">
@@ -103,9 +104,23 @@ function Home() {
               </div>
           </Card>
 
-          <Card className="mt-6 max-w-[300px] h-fit-content bg-red-200 border-2 border-red-300">
-            ONE
+         {/* 3rd one */}
+         <Card className="mt-6 w-[350px] h-fit-content bg-red-200 shadow-2xl">
+            <CardTitle className="text-center font-bold text-2xl">Editable Input Component</CardTitle>
+            <div className="w-[80%] mx-auto h-48 bg-gray-300 rounded-lg flex items-center justify-center">
+              Image hai i
+            </div>
+            <CardContent className="line-clamp-3 ">In this project, we built an editable input component using React. The component allows users to edit text inline, showcasing the use of controlled components and state management in React.</CardContent>
+
+            <div className="px-5 mb-2">
+              <Link to = '/inputedit'>
+              <Button   className="  bg-[#5417D7] hover:bg-[#3e0fb5] cursor-pointer text-white px-6 py-2 rounded-lg shadow-2xl transition duration-300">
+                View Project <ArrowRight />
+              </Button>
+               </Link>
+              </div>
           </Card>
+
 
           <Card className="mt-6 max-w-[300px] h-fit-content bg-red-200 border-2 border-red-300">
             ONE

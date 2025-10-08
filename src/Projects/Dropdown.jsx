@@ -8,25 +8,46 @@ import { Sandpack } from '@codesandbox/sandpack-react';
 
 const dropdownCode = `
 import React, { useState } from 'react';
+import { ChevronDown, ChevronUp } from 'lucide-react'; // Lucide icons
 
 const dropdownStyles = {
-  container: {
-    width: '200px',
-    margin: '10px',
+  wrapper: {
+    height: '100vh',
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: '#f0f4ff',
     fontFamily: 'sans-serif',
+  },
+  card: {
+    backgroundColor: '#fff',
+    padding: '30px',
+    borderRadius: '12px',
+    boxShadow: '0 10px 25px rgba(0,0,0,0.1)',
+    minWidth: '300px',
+    textAlign: 'center',
+  },
+  container: {
+    width: '100%',
+    marginTop: '10px',
+    textAlign: 'left',
   },
   label: {
     display: 'block',
-    marginBottom: '5px',
+    marginBottom: '6px',
     fontWeight: 'bold',
+    fontSize: '1rem',
+    color: '#374151',
   },
   header: {
-    padding: '10px',
+    padding: '10px 12px',
     border: '1px solid #ccc',
+    borderRadius: '6px',
+    backgroundColor: '#f9fafb',
     cursor: 'pointer',
-    userSelect: 'none',
-    position: 'relative',
-    backgroundColor: '#fff',
+    display: 'flex',
+    justifyContent: 'space-between',
+    alignItems: 'center',
   },
   list: {
     border: '1px solid #ccc',
@@ -37,16 +58,15 @@ const dropdownStyles = {
     margin: 0,
     padding: 0,
     listStyle: 'none',
+    borderRadius: '0 0 6px 6px',
   },
   listItem: {
-    padding: '10px',
+    padding: '10px 12px',
     cursor: 'pointer',
+    borderBottom: '1px solid #eee',
   },
   selectedItem: {
-    backgroundColor: '#f0f0f0',
-  },
-  arrow: {
-    float: 'right',
+    backgroundColor: '#f3f4f6',
   },
 };
 
@@ -69,8 +89,8 @@ const Dropdown = ({ label, options, onChange }) => {
         style={dropdownStyles.header}
         onClick={() => setIsOpen(!isOpen)}
       >
-        {selected || 'Select an option'}
-        <span style={dropdownStyles.arrow}>{isOpen ? '▲' : '▼'}</span>
+        <span>{selected || 'Select an option'}</span>
+        {isOpen ? <ChevronUp size={18} /> : <ChevronDown size={18} />}
       </div>
       {isOpen && (
         <ul style={dropdownStyles.list}>
@@ -92,7 +112,6 @@ const Dropdown = ({ label, options, onChange }) => {
   );
 };
 
-// App Component
 export default function App() {
   const options = ['React', 'Vue', 'Angular', 'Svelte'];
 
@@ -101,13 +120,17 @@ export default function App() {
   };
 
   return (
-    <div style={{ padding: '20px' }}>
-      <h2>Dropdown Example</h2>
-      <Dropdown
-        label="Choose a framework"
-        options={options}
-        onChange={handleDropdownChange}
-      />
+    <div style={dropdownStyles.wrapper}>
+      <div style={dropdownStyles.card}>
+        <h2 style={{ fontSize: '1.5rem', marginBottom: '20px', color: '#333' }}>
+          📂 Dropdown Selector
+        </h2>
+        <Dropdown
+          label="Choose a framework"
+          options={options}
+          onChange={handleDropdownChange}
+        />
+      </div>
     </div>
   );
 }

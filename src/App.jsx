@@ -4,6 +4,7 @@ import Home from "./Home";
 import Counter from "./Projects/Counter";
 import Dropdown from "./Projects/Dropdown";
 import ScrollToTop from "./ScrollToTop";
+import Inputedit from "./Projects/Inputedit";
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/counter" element={<Counter />} />
         <Route path="/dropdown" element={<Dropdown />} />
+        <Route path="/inputedit" element={<Inputedit />} />
       </Routes>
     </>
   );
