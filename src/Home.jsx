@@ -76,13 +76,8 @@ function Home() {
               Image hai i
             </div>
             <CardContent className="line-clamp-3 ">In this project, we built a counter application with Undo and Redo functionality using React. The app tracks state history, allowing users to reverse or reapply actions showcasing the concept of time travel in state management.</CardContent>
-            <div className="flex justify-center flex-wrap gap-2">
-              <span className="bg-orange-200 text-orange-800 text-sm font-medium px-4 py-2 rounded-full">React</span>
-              <span className="bg-blue-200 text-blue-800 text-sm font-medium px-4 py-2 rounded-full">Tailwind</span>
-              <span className="bg-yellow-200 text-yellow-800 text-sm font-medium px-4 py-2 rounded-full">JavaScript</span>
-            </div>
             <div className="px-5 mb-2">
-              <Link to = '/project-one'>
+              <Link to = '/counter'>
               <Button   className="  bg-[#5417D7] hover:bg-[#3e0fb5] cursor-pointer text-white px-6 py-2 rounded-lg shadow-2xl transition duration-300">
                 View Project <ArrowRight />
               </Button>
@@ -90,8 +85,22 @@ function Home() {
               </div>
           </Card>
 
-          <Card className="mt-6 max-w-[300px] h-fit-content bg-red-200 border-2 border-red-300">
-            ONE
+
+    {/* 2nd one  */}
+          <Card className="mt-6 w-[350px] h-fit-content bg-red-200 shadow-2xl">
+            <CardTitle className="text-center font-bold text-2xl">Dropdown Component</CardTitle>
+            <div className="w-[80%] mx-auto h-48 bg-gray-300 rounded-lg flex items-center justify-center">
+              Image hai i
+            </div>
+            <CardContent className="line-clamp-3 ">In this project, we built a dropdown component using React. The component allows users to select an option from a list, showcasing the use of controlled components and state management in React.</CardContent>
+          
+            <div className="px-5 mb-2">
+              <Link to = '/dropdown'>
+              <Button   className="  bg-[#5417D7] hover:bg-[#3e0fb5] cursor-pointer text-white px-6 py-2 rounded-lg shadow-2xl transition duration-300">
+                View Project <ArrowRight />
+              </Button>
+               </Link>
+              </div>
           </Card>
 
           <Card className="mt-6 max-w-[300px] h-fit-content bg-red-200 border-2 border-red-300">
