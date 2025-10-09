@@ -42,4 +42,11 @@ export  const projectData = [
     path: "/formvalidate",
     image: "formvalidate.png",
   },
+  {
+    title: "Theme Switcher",
+    description:
+      "A theme switcher component using React, allowing users to toggle between light and dark modes.",
+    path: "/themeswitcher",
+    image: "themeswitcher.png",
+  },
 ]

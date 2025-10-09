@@ -12,7 +12,7 @@ function ProjectCard({
 }) {
   return (
     <Card className="w-[350px] h-full flex flex-col bg-red-200 shadow-2xl">
-    <CardTitle className="text-center font-bold text-2xl">{title}</CardTitle>
+    <CardTitle className="text-center  selection:bg-purple-300 selection:text-black  font-bold text-2xl">{title}</CardTitle>
     
     <div className="w-[80%] mx-auto h-48 bg-gray-300 rounded-lg flex items-center justify-center">
       {image ? <img src={image} alt={title} className="h-full object-cover rounded-lg" /> : 'Image hai i'}

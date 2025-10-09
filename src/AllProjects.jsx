@@ -20,7 +20,7 @@ function AllProjects() {
       </div>
 
       <div className="relative z-10 max-w-[586px] h-fit-content mx-auto mt-12 text-center px-2 ">
-        <h1 className="text-4xl font-bold bg-gradient-to-r from-[#d9e0ff] to-[#232328] selection:bg-purple-300 selection:text-black bg-clip-text text-transparent leading-[1.2]">
+        <h1 className="text-4xl font-bold bg-gradient-to-r from-[#d9e0ff]  to-[#232328] selection:bg-purple-300 selection:text-black bg-clip-text text-transparent leading-[1.2]">
           All Projects
         </h1>
       </div>
@@ -36,17 +36,17 @@ function AllProjects() {
         <hr />
       </div>
       <div className="relative gap-4 max-w-[1280px]  p-6 rounded-2xl shadow-2xl mx-auto mt-4">
-        <h1 className="text-4xl text-[#d9e0ff] font-bold mb-1 ">
+        <h1 className="text-4xl text-[#d9e0ff]  selection:bg-purple-300 selection:text-black  font-bold mb-1 ">
           React Projects
         </h1>
-        <p className="text-[#4a4e5e]">
+        <p className="text-[#4a4e5e]  selection:bg-purple-300 selection:text-black ">
           Explore a variety of projects built with React and enhance your
           skills.
         </p>
       </div>
 
           <div className=" relative z-10  max-w-[1280px] mx-auto px-4 py-8">
-      <h1 className="text-4xl font-bold text-center ">All React Projects</h1>
+      <h1 className="text-4xl font-bold text-center   selection:bg-purple-300 selection:text-black  ">All React Projects</h1>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 items-stretch">
         {projectData.map((project) => (
           <ProjectCard key={project.title} {...project} />

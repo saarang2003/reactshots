@@ -115,25 +115,25 @@ function Inputedit() {
       minHeight: "100vh",
     }}
   />
-    <div className='relative z-10 py-2'>
+    <div className='relative z-10 py-6'>
       <Navbar />
     </div>
 
        <div className="relative z-10 max-w-[1280px] h-fit mx-auto px-4 md:px-6 lg:px-14 pb-12 mt-8 ">
 
-        <h1 className="text-4xl text-[#d9e0ff] font-bold mb-8 "> 
+        <h1 className="text-4xl text-[#d9e0ff]  selection:bg-purple-300 selection:text-black font-bold mb-8 "> 
            Editable Input</h1>
 
            <h4 className="  selection:bg-purple-300 selection:text-black text-[#757c96] font-semibold text-2xl mb-1 leading-[1.5]">
             📝 Project Overview
            </h4>
-        <p className="text-[#4a4e5e] max-w-[60%]">
+        <p className="text-[#4a4e5e]  selection:bg-purple-300 selection:text-black  max-w-[60%]">
           In this project, we developed an editable input component using React that allows users to edit text inline. The component showcases the use of controlled components and state management in React.
         </p>
         <h4 className="  selection:bg-purple-300 selection:text-black text-[#757c96] font-semibold text-2xl mb-1 leading-[1.5] mt-4">
            🎯 What You Will Learn
             </h4>
-            <ul className="text-[#4a4e5e] list-disc list-inside max-w-[60%]">
+            <ul className="text-[#4a4e5e]  selection:bg-purple-300 selection:text-black list-disc list-inside max-w-[60%]">
               <li>Using useState for state management</li>
               <li>Handling button click events</li>
               <li>Toggling between read and edit modes</li>

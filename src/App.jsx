@@ -9,6 +9,7 @@ import AllProjects from "./AllProjects";
 import TemperatureConverter from "./Projects/TemperatureConverter";
 import OTPInput from "./Projects/OTPInput";
 import FormValidate from "./Projects/FormValidate";
+import ThemeSwitcher from "./Projects/ThemeSwitcher";
 
 function App() {
 
@@ -24,6 +25,7 @@ function App() {
         <Route path="/temperature" element={<TemperatureConverter />} />
         <Route path="/otp" element={<OTPInput />} />
         <Route path="/formvalidate" element={<FormValidate />} />
+        <Route path="/themeswitcher" element={<ThemeSwitcher />} />
       </Routes>
     </>
   );
