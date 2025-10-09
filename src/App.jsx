@@ -8,6 +8,7 @@ import Inputedit from "./Projects/Inputedit";
 import AllProjects from "./AllProjects";
 import TemperatureConverter from "./Projects/TemperatureConverter";
 import OTPInput from "./Projects/OTPInput";
+import FormValidate from "./Projects/FormValidate";
 
 function App() {
 
@@ -22,6 +23,7 @@ function App() {
         <Route path="/inputedit" element={<Inputedit />} />
         <Route path="/temperature" element={<TemperatureConverter />} />
         <Route path="/otp" element={<OTPInput />} />
+        <Route path="/formvalidate" element={<FormValidate />} />
       </Routes>
     </>
   );

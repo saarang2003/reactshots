@@ -115,8 +115,8 @@ export default function Counter() {
               showTabs: true,
               showLineNumbers: true,
               wrapContent: true,
-              editorHeight: 400,
-              previewHeight: 400,
+              editorHeight: 600,
+              previewHeight: 600,
             }}
             files={{
               "/App.js": counterCode,

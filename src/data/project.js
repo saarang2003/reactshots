@@ -36,10 +36,10 @@ export  const projectData = [
     image: "otp.png",
   },
   {
-    title: "Editable Input Component",
+    title: "Validate Form",
     description:
-      "An inline editable input component using React, demonstrating controlled input and focus handling.",
-    path: "/inputedit",
-    image: "editable.png",
+      "A form validation component using React, demonstrating controlled input and validation handling.",
+    path: "/formvalidate",
+    image: "formvalidate.png",
   },
 ]

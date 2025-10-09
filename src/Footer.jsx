@@ -4,7 +4,7 @@ import { Github, Coffee, ArrowRight } from 'lucide-react';
 function Footer(){
     return (
 
-        <footer className="bg-[#0a0b25] text-gray-300 rounded-t-md ">
+        <footer className="bg-[#0f1035] text-gray-300 border-t-0 rounded-t-md ">
             <div className="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
                 <div className="grid gap-10 md:grid-cols-3 lg:grid-cols-4">
                     {/* Brand and description */}

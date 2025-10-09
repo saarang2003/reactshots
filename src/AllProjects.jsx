@@ -54,7 +54,7 @@ function AllProjects() {
       </div>
     </div>
 
-       <div className=" relative z-10 w-full" >
+       <div className=" relative z-10 w-full mt-8" >
         <Footer />
         </div>
 

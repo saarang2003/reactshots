@@ -169,8 +169,8 @@ function OTPInput() {
                     showTabs: true,
                     showLineNumbers: true,
                     wrapContent: true,
-                    editorHeight: 400,
-                    previewHeight: 400,
+                    editorHeight: 600,
+                    previewHeight: 600,
                   }}
                   files={{
                     "/App.js": OTPCode,
@@ -186,7 +186,7 @@ function OTPInput() {
             </section>
 
 
-             <div className=" relative z-10" >
+             <div className=" relative z-10 mt-8" >
       <Footer />
       </div>
 
