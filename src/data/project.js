@@ -49,4 +49,11 @@ export  const projectData = [
     path: "/themeswitcher",
     image: "themeswitcher.png",
   },
+  {
+    title: "Todo List",
+    description:
+      "A todo list component using React, allowing users to add, remove, and manage tasks.",
+    path: "/todolist",
+    image: "todolist.png",
+  },
 ]
