@@ -22,11 +22,11 @@ export  const projectData = [
     image: "editable.png",
   },
   {
-    title: "Counter App",
+    title: "Temperature Converter",
     description:
-      "A counter app with Undo and Redo functionality using React. Demonstrates time travel state management.",
-    path: "/counter",
-    image: "counter.png", // Optional
+      "A temperature converter app built with React, allowing users to convert between Celsius and Fahrenheit.",
+    path: "/temperature",
+    image: "temperature.png", // Optional
   },
   {
     title: "Dropdown Component",

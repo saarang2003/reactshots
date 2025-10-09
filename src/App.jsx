@@ -6,6 +6,7 @@ import Dropdown from "./Projects/Dropdown";
 import ScrollToTop from "./ScrollToTop";
 import Inputedit from "./Projects/Inputedit";
 import AllProjects from "./AllProjects";
+import TemperatureConverter from "./Projects/TemperatureConverter";
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
         <Route path="/counter" element={<Counter />} />
         <Route path="/dropdown" element={<Dropdown />} />
         <Route path="/inputedit" element={<Inputedit />} />
+        <Route path="/temperature" element={<TemperatureConverter />} />
         
       </Routes>
     </>
