@@ -7,6 +7,7 @@ import ScrollToTop from "./ScrollToTop";
 import Inputedit from "./Projects/Inputedit";
 import AllProjects from "./AllProjects";
 import TemperatureConverter from "./Projects/TemperatureConverter";
+import OTPInput from "./Projects/OTPInput";
 
 function App() {
 
@@ -20,7 +21,7 @@ function App() {
         <Route path="/dropdown" element={<Dropdown />} />
         <Route path="/inputedit" element={<Inputedit />} />
         <Route path="/temperature" element={<TemperatureConverter />} />
-        
+        <Route path="/otp" element={<OTPInput />} />
       </Routes>
     </>
   );

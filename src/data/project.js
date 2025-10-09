@@ -29,11 +29,11 @@ export  const projectData = [
     image: "temperature.png", // Optional
   },
   {
-    title: "Dropdown Component",
+    title: "OTP Input Component",
     description:
-      "A custom React dropdown demonstrating controlled components and state management. It allows users to select options with smooth toggle and dynamic updates.",
-    path: "/dropdown",
-    image: "dropdown.png",
+      "A custom React OTP input component demonstrating controlled components and state management. It allows users to enter a 6-digit OTP with smooth focus transitions.",
+    path: "/otp",
+    image: "otp.png",
   },
   {
     title: "Editable Input Component",

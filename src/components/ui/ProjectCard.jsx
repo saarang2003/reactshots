@@ -24,7 +24,7 @@ function ProjectCard({
 
     <div className="px-5 mb-3 mt-3">
       <Link to={path}>
-        <button className="bg-[#5417D7] hover:bg-[#3e0fb5] text-white px-6 py-2 rounded-lg shadow-2xl transition duration-300 w-full flex items-center justify-center gap-2">
+        <button className="bg-[#5417D7] hover:bg-[#3e0fb5] text-white cursor-pointer px-6 py-2 rounded-lg shadow-2xl transition duration-300 w-full flex items-center justify-center gap-2">
           View Project <ArrowRight size={18} />
         </button>
       </Link>
