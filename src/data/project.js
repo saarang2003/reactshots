@@ -67,4 +67,11 @@ export  const projectData = [
     path: "/starrating",
     image: "starrating.png",
   },
+    {
+    title: "Progress Bar Component",
+    description:
+      "A progress bar component using React, allowing users to visualize the completion status of a task.",
+    path: "/progressbar",
+    image: "progressbar.png",
+  },
 ]

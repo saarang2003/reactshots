@@ -12,6 +12,7 @@ import FormValidate from "./Projects/FormValidate";
 import ThemeSwitcher from "./Projects/ThemeSwitcher";
 import TodoList from "./Projects/TodoList";
 import StarRating from "./Projects/Starrating";
+import ProgressBar from "./Projects/ProgressBar";
 
 function App() {
 
@@ -30,6 +31,7 @@ function App() {
         <Route path="/themeswitcher" element={<ThemeSwitcher />} />
         <Route path ="/todolist" element={<TodoList />} />
         <Route path ="/starrating" element={<StarRating />} />
+        <Route path="/progressbar" element={<ProgressBar />} />
       </Routes>
     </>
   );
