@@ -11,6 +11,7 @@ import OTPInput from "./Projects/OTPInput";
 import FormValidate from "./Projects/FormValidate";
 import ThemeSwitcher from "./Projects/ThemeSwitcher";
 import TodoList from "./Projects/TodoList";
+import StarRating from "./Projects/Starrating";
 
 function App() {
 
@@ -28,6 +29,7 @@ function App() {
         <Route path="/formvalidate" element={<FormValidate />} />
         <Route path="/themeswitcher" element={<ThemeSwitcher />} />
         <Route path ="/todolist" element={<TodoList />} />
+        <Route path ="/starrating" element={<StarRating />} />
       </Routes>
     </>
   );
