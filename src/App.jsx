@@ -11,7 +11,7 @@ import OTPInput from "./Projects/OTPInput";
 import FormValidate from "./Projects/FormValidate";
 import ThemeSwitcher from "./Projects/ThemeSwitcher";
 import TodoList from "./Projects/TodoList";
-import StarRating from "./Projects/Starrating";
+import StarRating from "./Projects/StarRatingg";
 import ProgressBar from "./Projects/ProgressBar";
 
 function App() {
