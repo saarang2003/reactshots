@@ -31,13 +31,13 @@ function Home() {
     }}
   />
 
-      <div className="relative z-10 py-2">
+      <div className="relative z-10 py-6 px-4">
         <Navbar/>
       </div>
 
       {/* CTA */}
-      <div className="relative z-10 max-w-[586px] h-fit-content mx-auto mt-24 text-center px-2 ">
-        <h1 className="text-4xl font-bold bg-gradient-to-r from-[#d9e0ff] to-[#232328] selection:bg-purple-300 selection:text-black bg-clip-text text-transparent leading-[1.2]">
+      <div className="relative z-10 max-w-[586px] h-fit-content mx-auto mt-10 md:mt-18 text-center px-2 ">
+        <h1 className="text-3xl md:text-5xl font-bold bg-gradient-to-r from-[#d9e0ff] to-[#232328] selection:bg-purple-300 selection:text-black bg-clip-text text-transparent leading-[1.2]">
           Master React Interviews with Real-World Projects
         </h1>
       </div>
@@ -64,8 +64,8 @@ function Home() {
       </div>
 
 
-      <div className="relative z-10 max-w-[1280px] h-fit-content mx-auto mt-6  text-center px-2 ">
-        <hr />
+      <div className="relative z-10 max-w-[1280px] h-fit-content mx-auto mt-6   text-center px-2 ">
+        <hr className="border-t border-white/75" />
       </div>
 
       <div className="relative gap-4 max-w-[1280px]  p-6 rounded-2xl shadow-2xl mx-auto mt-4 ">
@@ -76,7 +76,8 @@ function Home() {
         </p>
 
         {/* Projects */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 mt-2">
+       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 mt-2 place-items-center sm:place-items-start">
+
 
           <Card className="mt-6 w-[350px] h-full flex flex-col 
   rounded-xl 
