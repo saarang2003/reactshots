@@ -1,5 +1,6 @@
 import React from 'react'
 import { Github, Coffee, ArrowRight } from 'lucide-react';
+import LogoImage from './assets/logo.png';
 
 function Footer(){
     return (
@@ -10,7 +11,7 @@ function Footer(){
                     {/* Brand and description */}
                     <div className="md:col-span-2">
                         <div className="flex items-center gap-2 p-4">
-          <img src="./public/logo.png" alt="logo" className="w-6 h-6" />
+          <img src={LogoImage} alt="logo" className="w-6 h-6" />
           <span className="font-bold text-white text-2xl">ReactShots</span>
         </div>
                         <p className="mt-4 max-w-2xl text-sm leading-6 text-gray-400">
