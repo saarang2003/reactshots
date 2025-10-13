@@ -13,6 +13,7 @@ import ThemeSwitcher from "./Projects/ThemeSwitcher";
 import TodoList from "./Projects/TodoList";
 import StarRating from "./Projects/StarRatingg";
 import ProgressBar from "./Projects/ProgressBar";
+import Popover from "./Projects/Popover";
 
 function App() {
 
@@ -32,6 +33,7 @@ function App() {
         <Route path ="/todolist" element={<TodoList />} />
         <Route path ="/starrating" element={<StarRating />} />
         <Route path="/progressbar" element={<ProgressBar />} />
+        <Route path="/popover" element = {<Popover/>} />
       </Routes>
     </>
   );

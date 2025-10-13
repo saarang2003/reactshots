@@ -81,4 +81,11 @@ export  const projectData = [
     path: "/progressbar",
     image: progressImage,
   },
+   {
+    title: "Popover Component",
+    description:
+      "A popover component using React, allowing users to display additional information on hover or click.",
+    path: "/popover",
+    image: progressImage,
+  },
 ]
