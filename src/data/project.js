@@ -9,6 +9,8 @@ import themeSwitcherImage from "../assets/theme.png";
 import tododImage from "../assets/todo.png";
 import starImage from "../assets/star.png";
 import progressImage from "../assets/progress.png";
+import popoverImage from "../assets/popover.png";
+import paginationImage  from "../assets/pagination.png";
 
 export  const projectData = [
     {
@@ -86,6 +88,13 @@ export  const projectData = [
     description:
       "A popover component using React, allowing users to display additional information on hover or click.",
     path: "/popover",
-    image: progressImage,
+    image: popoverImage,
+  },
+  {
+    title: "Pagination Component",
+    description:
+      "A pagination component using React, allowing users to navigate through pages of content.",
+    path: "/pagination",
+    image: paginationImage,
   },
 ]

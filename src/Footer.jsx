@@ -1,5 +1,5 @@
 import React from 'react'
-import { Github, Coffee, ArrowRight } from 'lucide-react';
+import { Github, Coffee, ArrowRight, TwitterIcon } from 'lucide-react';
 import LogoImage from './assets/logo.png';
 
 function Footer(){
@@ -52,7 +52,7 @@ function Footer(){
                         <ul className="mt-4 space-y-4 text-sm">
                             <li>
                                 <a
-                                    href="https://github.com/"
+                                    href="https://github.com/saarang2003/reactshots"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className="flex items-center gap-3 rounded-lg border border-gray-800 bg-gray-800/40 px-4 py-3 transition-colors hover:bg-gray-700 hover:text-white shadow-sm"
@@ -66,14 +66,14 @@ function Footer(){
                             </li>
                             <li>
                                 <a
-                                    href="https://www.buymeacoffee.com/"
+                                    href="https://twitter.com/sarangp017"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className="flex items-center gap-3 rounded-lg border border-gray-800 bg-gray-800/40 px-4 py-3 transition-colors hover:bg-gray-700 hover:text-white shadow-sm"
                                 >
-                                    <Coffee className="h-5 w-5 text-amber-400 group-hover:text-amber-300" />
+                                    <TwitterIcon className="h-5 w-5 text-amber-400 group-hover:text-amber-300" />
                                     <div className="flex justify-between w-full items-center">
-                                        <span className="font-semibold">Buy me a coffee</span>
+                                        <span className="font-semibold">Connect on X</span>
                                         <span className="text-xs text-gray-400 group-hover:text-gray-300"><ArrowRight/></span>
                                     </div>
                                 </a>

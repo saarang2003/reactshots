@@ -14,6 +14,7 @@ import TodoList from "./Projects/TodoList";
 import StarRating from "./Projects/StarRatingg";
 import ProgressBar from "./Projects/ProgressBar";
 import Popover from "./Projects/Popover";
+import Pagination from "./Projects/Pagination";
 
 function App() {
 
@@ -34,6 +35,7 @@ function App() {
         <Route path ="/starrating" element={<StarRating />} />
         <Route path="/progressbar" element={<ProgressBar />} />
         <Route path="/popover" element = {<Popover/>} />
+        <Route path="/pagination" element = {<Pagination />} />
       </Routes>
     </>
   );
