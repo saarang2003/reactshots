@@ -16,6 +16,7 @@ import ProgressBar from "./Projects/ProgressBar";
 import Popover from "./Projects/Popover";
 import Pagination from "./Projects/Pagination";
 import NestedComment from "./Projects/NestedComment";
+import ModalComponent from "./Projects/ModalComponent";
 
 function App() {
 
@@ -38,6 +39,7 @@ function App() {
         <Route path="/popover" element = {<Popover/>} />
         <Route path="/pagination" element = {<Pagination />} />
         <Route path="/nestedcomments" element = {<NestedComment />} />
+        <Route path = "/modal" element = {<ModalComponent/>} />
       </Routes>
     </>
   );

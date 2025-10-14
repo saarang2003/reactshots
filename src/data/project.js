@@ -12,6 +12,7 @@ import progressImage from "../assets/progress.png";
 import popoverImage from "../assets/popover.png";
 import paginationImage  from "../assets/pagination.png";
 import nestedCommentImage from "../assets/nestedcomments.png";
+import modalImage from "../assets/modal.png";
 
 export  const projectData = [
     {
@@ -104,5 +105,12 @@ export  const projectData = [
       "A nested comments component using React, allowing users to leave comments on posts and reply to other comments.",
     path: "/nestedcomments",
     image: nestedCommentImage,
+  },
+   {
+    title: "Modal Component ",
+    description:
+      "A modal component using React, allowing users to display content in a dialog overlay.",
+    path: "/modal",
+    image: modalImage,
   },
 ]

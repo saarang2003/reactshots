@@ -210,12 +210,13 @@ Nested Comments Component
   🎯 What You Will Learn
 </h4>
 <ul className="text-[#4a4e5e] selection:bg-purple-300 selection:text-black list-disc list-inside max-w-[60%]">
-  <li>Handle state with <code>useState</code></li>
-  <li>Add hover and click interactions</li>
-  <li>Use Context API for shared state</li>
-  <li>Apply dynamic and theme-based styling</li>
-  <li>Create a responsive, accessible UI</li>
+  <li>Use <code>useState</code> to manage comments, replies, and input values</li>
+  <li>Implement recursive rendering to display nested replies</li>
+  <li>Handle dynamic updates to deeply nested state structures</li>
+  <li>Add interactive UI elements like reply toggles and submit actions</li>
+  <li>Style components with clean, inline CSS for flexibility and clarity</li>
 </ul>
+
 
       </div>
 
