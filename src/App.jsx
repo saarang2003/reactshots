@@ -15,6 +15,7 @@ import StarRating from "./Projects/StarRatingg";
 import ProgressBar from "./Projects/ProgressBar";
 import Popover from "./Projects/Popover";
 import Pagination from "./Projects/Pagination";
+import NestedComment from "./Projects/NestedComment";
 
 function App() {
 
@@ -36,6 +37,7 @@ function App() {
         <Route path="/progressbar" element={<ProgressBar />} />
         <Route path="/popover" element = {<Popover/>} />
         <Route path="/pagination" element = {<Pagination />} />
+        <Route path="/nestedcomments" element = {<NestedComment />} />
       </Routes>
     </>
   );

@@ -11,6 +11,7 @@ import starImage from "../assets/star.png";
 import progressImage from "../assets/progress.png";
 import popoverImage from "../assets/popover.png";
 import paginationImage  from "../assets/pagination.png";
+import nestedCommentImage from "../assets/nestedcomments.png";
 
 export  const projectData = [
     {
@@ -96,5 +97,12 @@ export  const projectData = [
       "A pagination component using React, allowing users to navigate through pages of content.",
     path: "/pagination",
     image: paginationImage,
+  },
+    {
+    title: "Nested Comments ",
+    description:
+      "A nested comments component using React, allowing users to leave comments on posts and reply to other comments.",
+    path: "/nestedcomments",
+    image: nestedCommentImage,
   },
 ]
